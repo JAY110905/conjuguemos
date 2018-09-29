@@ -7,7 +7,7 @@ pip install pyautogui
 ```
 This will install `pyautogui`, which is necessary for the program to run. The program is tested for Windows 10, but all software is supposed to be cross-compatible and should work on almost any major operating system.
 ## Setup for Conjuguemos
-...
+Unfortunately, this section will have to be repeated every time the program is run. To begin, open a new graded practice.
 ## Setting up the program
 To set up the program, open `conjuguemos.py` in any text editor. We recommend [Notepad++](https://notepad-plus-plus.org/), but Notepad or TextEdit will work just fine. Looking at the first 12 lines, edit the variables according to the instructions in the file. Don't remove any single-quotes (`'`), as this will cause an error and prevent the program from running.
 ## Running the program
