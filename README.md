@@ -2,7 +2,7 @@
 This is for educational purposes only. If this is used to cheat in any way, it's not my fault. You have been warned.<br>
 **Note:** This only works with conjugation, not vocab. I'm looking for a way to get it to work, but at the moment the exploit used in this program doesn't exist in that mode.
 ## Installation
-To run this program, you need Python installed on your computer, which you can install from [www.python.org](https://www.python.org/). Once Python is downloaded, you need to run this command:
+Download `conjuguemos.py`, but don't run it yet. The program is portable, so it doesn't need to be installed, just run when you want to use it. To run this program, you need Python installed on your computer, which you can install from [www.python.org](https://www.python.org/). Once Python is downloaded, you need to run this command:
 ```
 pip install pyautogui
 ```
