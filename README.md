@@ -1,3 +1,4 @@
+# At the moment, the exploit is unsuitable for actual use. Please don't try to use it. 
 # conjuguemos
 This is for educational purposes only. If this is used to cheat in any way, it's not my fault. You have been warned.<br>
 **Note:** This only works with conjugation, not vocab. I'm looking for a way to get it to work, but at the moment the exploit used in this program doesn't exist in that mode.
