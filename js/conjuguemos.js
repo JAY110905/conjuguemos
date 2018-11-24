@@ -36,3 +36,43 @@ function answer(value){
     $("#check-button").click();
     return check();
 }
+/**
+ * Gets the pronoun
+ * @returns {int[]} [person, number]
+ */
+function getPronoun() {
+    p = $('#pronoun-input').text();
+    if(p.indexOf(' y ') != -1) {
+        if(p.indexOf(' yo') != -1) {
+            return [1, 2];
+        }
+        else if(p.indexOf('tú')) {
+            return [2, 2];
+        }
+        else if(p.indexOf('usted')) {
+            return [3, 2];
+        }
+        else {
+            return [3, 2]
+        }
+    }
+    else {
+        s = {
+            'yo': [1, 1],
+            'tú': [2, 1],
+            'él': [3, 1],
+            'ella': [3, 1],
+            'usted': [3, 1],
+            'nosotros': [1, 2],
+            'vosotros': [2, 2],
+            'ellos': [3, 2],
+            'ellas': [3, 2],
+            'ustedes': [3, 2]
+        };
+        o = FuzzySet();
+        for (pro in s) {
+            o.add(pro);
+        }
+        return s[o.get(p)[0][1]];
+    }
+}
